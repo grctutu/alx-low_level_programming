@@ -2,9 +2,9 @@
 
 #include <unistd.h>
 
-/*
- * main - Entry point
- * Return: Always 0 (Success)
+/**
+ * main - Entry point"This is the entry point
+ * Return: 0 if exited properly, non-zero otherwise
  */
 
 int main(void)
