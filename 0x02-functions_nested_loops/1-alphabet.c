@@ -1,15 +1,16 @@
-#include 'alx.h'
+#include 'main.h'
 /**
- *print_alphabet- prints the english alphabet from a-z
+ *print_alphabet- prints lower case alphabets
  * Return; nothing
  */
 void print_alphabet(void)
 {
-	char c;
+	char c = 'a';
 
-	for (c = 'a'; c <= 'z'; c++)
+	while (ch <= 'z')
 	{
-		_putchar(c);
+		_putchar(ch);
+		ch++;
 	}
 	_putchar('\n');
 }
