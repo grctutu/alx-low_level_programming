@@ -1,16 +1,17 @@
-#include "_putchar.c"
+#include "main.h"
 /**
  * main- prints _putchar followed by a new line
  * Return: 0 on success
  */
 int main(void)
 {
-	char c[] = "_putchar";
-	int i;
+	char word[9] = "_putchar";
+	int i = 0;
 
-	for (i = 1; i++;)
+	while (i < 8)
 	{
-		_putchar (c[i]);
+		_putchar (word[i]);
+		i++;
 	}
 	_putchar('\n');
 	return (0);
