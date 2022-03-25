@@ -1,23 +1,23 @@
 #include <stdio.h>
 /**
- * main- Prints all numbers of base 16
+ * main - prints all numbers of base 16.
  * Return: 0 on success
  */
 int main(void)
 {
-int i = '0';
+	char c;
 
-while (i <= '9')
-{
-putchar(i);
-i++;
-}
-i = 'a';
-while (i <= 'f')
-{
-putchar(i);
-i++;
-putchar('\n');
-return(0);
-}
+	for (c = '0'; c <= '9'; c++)
+	{
+		putchar(c);
+	}
 
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
+	}
+
+	putchar('\n');
+
+	return (0);
+}
