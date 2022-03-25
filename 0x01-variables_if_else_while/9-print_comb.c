@@ -5,15 +5,20 @@
  */
 int main(void)
 {
-int i = '0';
+	int c;
 
-while (i <= '9')
-{
-putchar(i);
-if (i != '9')
-}
-i++;
-}
-putchar('\n');
-return(0);
+	for (c = '0'; c <= '9'; c++)
+	{
+		putchar(c);
+
+		if (c != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
 }
