@@ -6,13 +6,14 @@
  */
 int main(void)
 {
-int i = '0';
+	int n;
 
-while (i <= '9)
-{
-putchar(i);
-i++;
-}
-putchar('\n');
-return(0);
+	for (n = '0'; n <= '9'; n++)
+	{
+		putchar(n);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
