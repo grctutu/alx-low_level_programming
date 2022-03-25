@@ -5,19 +5,19 @@
  */
 int main(void)
 {
-char c = 'a';
-char d = 'A';
+	char c;
 
-while (c <= 'z')
-{
-putchar (c);
-c++;
-}
-while (d <= 'Z')
-{
-putchar (d);
-d++;
-}
-putchar ('\n');
-return (0);
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+
+	for (c = 'A'; c <= 'Z'; c++)
+	{
+		putchar(c);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
